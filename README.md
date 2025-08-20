@@ -1,0 +1,1 @@
+# LOJA2C_TurmaA
