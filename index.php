@@ -4,8 +4,8 @@
 
     <div class="container">
         <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-            <button type="button" class="btn btn-danger">Cadastrar Produtos</button>
-            <button type="button" class="btn btn-warning">Listar Produtos</button>
+            <a href="form_cadastra.php" type="button" class="btn btn-danger">Cadastrar Produtos</a>
+            <a href="listar.php" type="button" class="btn btn-warning">Listar Produtos</a>
         </div>
     </div>
 

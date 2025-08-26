@@ -9,11 +9,12 @@
                 <input type="text" class="form-control" name="nome" placeholder="Digite o nome do produto">
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control" name="prco" placeholder="Digite o preço do produto">
+                <input type="text" class="form-control" name="preco" placeholder="Digite o preço do produto">
             </div>
             <div class="mb-3">
                 <input type="text" class="form-control" name="quantidade" placeholder="Digite a quatidade do produto">
             </div>
+            
             <button type="submit" class="btn btn-primary">CADASTRAR</button>
         </form>
     </div>
