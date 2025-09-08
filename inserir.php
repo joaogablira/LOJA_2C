@@ -15,6 +15,7 @@
 
     if ($stmt->execute()) {
         echo "Produto inserido com sucesso!";
+        header("location: index.php");
     } else {
         echo "Erro ao inserir produto.";
     }
