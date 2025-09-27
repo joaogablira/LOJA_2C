@@ -6,16 +6,16 @@
         <h3>Cadastro de Produtos</h3>
         <form action="inserir.php" method="POST">
             <div class="mb-3">
-                <input type="text" class="form-control" name="nome" placeholder="Digite o nome do produto">
+                <input type="text" class="form-control" name="nome" placeholder="Digite o nome do produto" required>
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control" name="preco" placeholder="Digite o preço do produto">
+                <input type="text" class="form-control" name="preco" placeholder="Digite o preço do produto" required>
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control" name="quantidade" placeholder="Digite a quatidade do produto">
+                <input type="text" class="form-control" name="quantidade" placeholder="Digite a quatidade do produto" required>
             </div>
             
-            <button type="submit" class="btn btn-primary">CADASTRAR</button>
+            <button type="submit" class="btn btn-yellow">CADASTRAR</button>
         </form>
     </div>
 

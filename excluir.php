@@ -3,13 +3,15 @@
 
     $id = $_GET['id'];
     $sql = "DELETE FROM produtos WHERE id = :id";
+    
     $stmt = $pdo->prepare($sql);
     $stmt->bindParam(':id', $id);
-
+    
     if ($stmt->execute()) {
-        echo "Produto excluído com sucesso!";
-        header("location: listar.php");
+     header("Location: validado.php");
+    exit;
     } else {
-        echo "Erro ao excluir produto.";
+      header("Location: erro.php");
+    exit;
     }
 ?>

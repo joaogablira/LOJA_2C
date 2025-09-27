@@ -17,15 +17,15 @@
             ?> 
 
             <div class="mb-3">
-                Nome: <input type="text" value="<?php echo $produto['nome']; ?>" class="form-control" name="nome_novo">
+                Nome: <input type="text" value="<?php echo $produto['nome']; ?>" class="form-control" name="nome_novo" required>
             </div>
             <div class="mb-3">
-                Preço: <input type="text" value="<?php echo $produto['preco']; ?>" class="form-control" name="preco_novo">
+                Preço: <input type="text" value="<?php echo $produto['preco']; ?>" class="form-control" name="preco_novo" required>
             </div>
-            <div class="mb-3">Quantidade: <input type="text" value="<?php echo $produto['quantidade']; ?>" class="form-control" name="quantidade_novo">
+            <div class="mb-3">Quantidade: <input type="text" value="<?php echo $produto['quantidade']; ?>" class="form-control" name="quantidade_novo" required>
             </div>
             
-            <button type="submit" class="btn btn-primary">ATUALIZAR</button>
+            <button type="submit" class="btn btn-green">ATUALIZAR</button>
         </form>
     </div>
 

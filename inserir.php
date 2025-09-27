@@ -14,9 +14,10 @@
     $stmt->bindParam(':quantidade', $quantidade);
 
     if ($stmt->execute()) {
-        echo "Produto inserido com sucesso!";
-        header("location: index.php");
+     header("Location: validado.php");
+    exit;
     } else {
-        echo "Erro ao inserir produto.";
+      header("Location: erro.php");
+    exit;
     }
 ?>
